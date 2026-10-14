@@ -1,0 +1,45 @@
+.tagsBlockWrapper {
+  position: sticky;
+  top: 50px;
+  padding: 20px;
+  row-gap: 20px;
+  display: flex;
+  width: 620px;
+  height: auto;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tagsBlockHeading {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.tagsList {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .tagsBlockWrapper {
+    width: 100%;
+    position: static;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .tagsList {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,109 @@
+.postWrapper {
+  min-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.postWrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.postAuthorArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.postAuthorArea p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+.tagsArea {
+  margin-top: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.postActivityArea {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.postActivityArea p {
+  margin-left: 5px;
+  font-size: 20px;
+  color: #555;
+}
+
+.postActivityArea div {
+  display: flex;
+  align-items: center;
+  color: #777;
+}
+
+.postActivityArea .postViewsCountArea,
+.postActivityArea .postLikesCountArea {
+  font-size: 20px;
+}
+
+.postActivityArea .postViewsCountArea svg,
+.postActivityArea .postLikesCountArea svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.postViewsAndLikesArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heart {
+  transition: 0.3s all ease;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .postWrapper {
+    min-width: 90%;
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px auto;
+  }
+}

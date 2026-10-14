@@ -1,0 +1,35 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  padding: 10px 40px 10px 20px;
+  border: 1px solid #333333;
+  outline: none;
+  border-radius: 10px;
+  min-width: 400px;
+  max-width: 500px;
+  font-size: 17px;
+}
+
+.iconSearch {
+  position: absolute;
+  right: 15px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .searchInput {
+    min-width: 200px;
+  }
+}

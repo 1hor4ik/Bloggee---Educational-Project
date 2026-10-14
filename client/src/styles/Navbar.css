@@ -1,0 +1,76 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.navbarMobile {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  display: flex;
+}
+
+.navbarProfileSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.profileImg {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: none;
+  border-radius: 50%;
+}
+
+.logoutBtn {
+  padding: 14px 30px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+}
+
+.lrBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.registerBtn {
+  padding: 14px 30px;
+  background-color: #9e9e9e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.loginBtn {
+  padding: 14px 30px;
+  background-color: rgb(39, 137, 228);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.registerLink {
+  text-decoration: none;
+  color: #fff;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: #fff;
+}
